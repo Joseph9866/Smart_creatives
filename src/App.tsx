@@ -121,7 +121,7 @@ function App() {
                 <div className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full"></div>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-green-500 bg-clip-text text-transparent">
-                SmartInk Creatives
+                ALJana Tech
               </span>
             </div>
 
@@ -355,7 +355,7 @@ function App() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
                 About{' '}
                 <span className="bg-gradient-to-r from-purple-600 to-green-500 bg-clip-text text-transparent">
-                  SmartInk Creatives
+                  ALJana Tech
                 </span>
               </h2>
               <p className="text-lg text-gray-600 mb-6">
@@ -396,10 +396,10 @@ function App() {
                   <div className="bg-gradient-to-r from-purple-600 to-purple-700 h-24 rounded-lg p-3 text-white">
                     <div className="flex items-center mb-2">
                       <PenTool className="w-4 h-4 mr-2" />
-                      <span className="text-xs font-bold">SmartInk</span>
+                      <span className="text-xs font-bold">ALJana Tech</span>
                     </div>
                     <div className="text-xs space-y-1">
-                      <div className="font-semibold">John Doe</div>
+                      <div className="font-semibold">Joseph amaze</div>
                       <div className="text-purple-200">Creative Director</div>
                     </div>
                   </div>
@@ -411,7 +411,7 @@ function App() {
                   <div className="bg-gray-900 h-24 rounded-lg flex items-center justify-center">
                     <div className="text-center">
                       <PenTool className="w-8 h-8 text-yellow-400 mx-auto mb-1" />
-                      <div className="text-white text-xs font-bold">SmartInk</div>
+                      <div className="text-white text-xs font-bold">ALJana Tech</div>
                     </div>
                   </div>
                   <p className="text-xs text-gray-600 mt-2 text-center">T-Shirt Design</p>
@@ -435,7 +435,7 @@ function App() {
                   <div className="bg-green-500 h-24 rounded-full flex items-center justify-center mx-4">
                     <div className="text-white text-center">
                       <PenTool className="w-6 h-6 mx-auto mb-1" />
-                      <div className="text-xs font-bold">SmartInk</div>
+                      <div className="text-xs font-bold">ALJana Tech</div>
                     </div>
                   </div>
                   <p className="text-xs text-gray-600 mt-2 text-center">Sticker Design</p>
@@ -507,7 +507,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-purple-200">hello@smartinkcreatives.co.ke</div>
+                    <div className="text-purple-200">josekeam01@gmail.com</div>
                   </div>
                 </div>
 
@@ -517,7 +517,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold">Phone</div>
-                    <div className="text-purple-200">+254 700 123 456</div>
+                    <div className="text-purple-200">+254 759 750 318</div>
                   </div>
                 </div>
 
@@ -608,10 +608,10 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <PenTool className="w-8 h-8 text-purple-400" />
-              <span className="text-xl font-bold">SmartInk Creatives</span>
+              <span className="text-xl font-bold">ALJana Tech</span>
             </div>
             <div className="text-gray-400 text-center md:text-right">
-              <p>&copy; 2024 SmartInk Creatives. All rights reserved.</p>
+              <p>&copy; 2025 ALJana Tech. All rights reserved.</p>
              
             </div>
           </div>
