@@ -116,13 +116,16 @@ function App() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <div className="relative">
-                <PenTool className="w-8 h-8 text-purple-600" />
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full"></div>
-              </div>
-              <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-green-500 bg-clip-text text-transparent">
-                SmartInk Creatives
-              </span>
+               <img 
+                  src="/Images/Aljana logo.png" 
+                  alt="AlJana Logo" 
+                  className="w-16 h-16 rounded-full object-cover"
+                />
+            
+             {/* Brand Name */}
+               <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-green-500 bg-clip-text text-transparent">
+                  AlJana Tech
+                </span>
             </div>
 
             {/* Desktop Navigation */}
@@ -176,20 +179,19 @@ function App() {
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-6">
               <Palette className="w-4 h-4 mr-2" />
-              Creative. Digital. African.
+              Creative. Digital. Global.
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Empowering{' '}
+              Innovative Design {' '}
               <span className="bg-gradient-to-r from-purple-600 via-yellow-500 to-green-500 bg-clip-text text-transparent">
-                African Brands
+                for Forward  Thinking
               </span>{' '}
-              Through Design
+             Brands Everywhere
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-              We craft innovative digital experiences that celebrate African culture while driving business growth. 
-              From startups to SMEs, we bring your vision to life with creativity that connects.
+              We create innovative digital experiences that blend culture, creativity, and strategy to drive business growth. From startups to SMEs, we bring your vision to life with design that connects across borders and audiences.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -261,8 +263,7 @@ function App() {
               <span className="bg-gradient-to-r from-purple-600 to-green-500 bg-clip-text text-transparent"> Portfolio</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Discover how we've helped Kenyan businesses and startups create compelling brand experiences 
-              that resonate with their audiences and drive growth.
+             Explore how we've partnered with Kenyan businesses and startups to craft memorable brand experiences that captivate audiences and fuel sustainable growth.
             </p>
           </div>
 
@@ -355,13 +356,13 @@ function App() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
                 About{' '}
                 <span className="bg-gradient-to-r from-purple-600 to-green-500 bg-clip-text text-transparent">
-                  SmartInk Creatives
+                  AlJana Tech
                 </span>
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                We are a creative design studio based in Nairobi, passionate about elevating African brands 
-                through innovative design solutions. Our team combines deep cultural understanding with 
-                cutting-edge design techniques to create impactful brand experiences.
+                We are a creative design studio based in Nairobi, passionate about elevating brands across the globe with an African touch
+                Our team blends cultural insight with cutting-edge design techniques to craft bold,
+                 impactful brand experiences rooted in authenticity.
               </p>
               <p className="text-lg text-gray-600 mb-8">
                 From startups taking their first steps to established SMEs looking to refresh their image, 
@@ -374,7 +375,7 @@ function App() {
                   <div className="text-gray-600">Projects Completed</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-yellow-500 mb-2">30+</div>
+                  <div className="text-3xl font-bold text-yellow-500 mb-2">45+</div>
                   <div className="text-gray-600">Happy Clients</div>
                 </div>
                 <div>
@@ -396,7 +397,7 @@ function App() {
                   <div className="bg-gradient-to-r from-purple-600 to-purple-700 h-24 rounded-lg p-3 text-white">
                     <div className="flex items-center mb-2">
                       <PenTool className="w-4 h-4 mr-2" />
-                      <span className="text-xs font-bold">SmartInk</span>
+                      <span className="text-xs font-bold">AlJana Tech</span>
                     </div>
                     <div className="text-xs space-y-1">
                       <div className="font-semibold">John Doe</div>
@@ -411,7 +412,7 @@ function App() {
                   <div className="bg-gray-900 h-24 rounded-lg flex items-center justify-center">
                     <div className="text-center">
                       <PenTool className="w-8 h-8 text-yellow-400 mx-auto mb-1" />
-                      <div className="text-white text-xs font-bold">SmartInk</div>
+                      <div className="text-white text-xs font-bold">AlJana Tech</div>
                     </div>
                   </div>
                   <p className="text-xs text-gray-600 mt-2 text-center">T-Shirt Design</p>
@@ -435,7 +436,7 @@ function App() {
                   <div className="bg-green-500 h-24 rounded-full flex items-center justify-center mx-4">
                     <div className="text-white text-center">
                       <PenTool className="w-6 h-6 mx-auto mb-1" />
-                      <div className="text-xs font-bold">SmartInk</div>
+                      <div className="text-xs font-bold">AlJana Tech</div>
                     </div>
                   </div>
                   <p className="text-xs text-gray-600 mt-2 text-center">Sticker Design</p>
@@ -457,7 +458,7 @@ function App() {
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Don't just take our word for it. Here's what our clients have to say about working with SmartInk Creatives.
+              Don't just take our word for it. Here's what our clients have to say about working with AlJana Tech.
             </p>
           </div>
 
@@ -507,7 +508,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-purple-200">hello@smartinkcreatives.co.ke</div>
+                    <div className="text-purple-200">josekeam01@gmail.com</div>
                   </div>
                 </div>
 
@@ -517,7 +518,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold">Phone</div>
-                    <div className="text-purple-200">+254 700 123 456</div>
+                    <div className="text-purple-200">+254 759 750 318</div>
                   </div>
                 </div>
 
@@ -607,11 +608,11 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <PenTool className="w-8 h-8 text-purple-400" />
-              <span className="text-xl font-bold">SmartInk Creatives</span>
+              <img src="/Images/Aljana logo.png" alt="Logo" className="w-16 h-16" />
+              <span className="text-xl font-bold">AlJana Tech</span>
             </div>
             <div className="text-gray-400 text-center md:text-right">
-              <p>&copy; 2024 SmartInk Creatives. All rights reserved.</p>
+              <p>&copy; 2024 AlJana Tech. All rights reserved.</p>
              
             </div>
           </div>
