@@ -42,10 +42,10 @@ function App() {
       description: "Modern website showcasing African fashion designers"
     },
     {
-      title: "Packaging Design - Kilifi Honey",
-      category: "Packaging",
-      image: "https://images.pexels.com/photos/1638999/pexels-photo-1638999.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Premium packaging design celebrating Kenyan heritage"
+      title: "Website development - ACK guest house Nyeri",
+      category: "Websie development",
+      image: "/Images/ackweb.png",
+      description: "Crafting premium websites that honor Kenyan heritage with modern desig"
     }
   ];
 
@@ -508,7 +508,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-purple-200">josekeam01@gmail.com</div>
+                    <div className="text-purple-200">maingijulius001@gmail.com</div>
                   </div>
                 </div>
 
@@ -518,7 +518,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold">Phone</div>
-                    <div className="text-purple-200">+254 759 750 318</div>
+                    <div className="text-purple-200">+254 705 494 094</div>
                   </div>
                 </div>
 
@@ -612,7 +612,7 @@ function App() {
               <span className="text-xl font-bold">AlJana Tech</span>
             </div>
             <div className="text-gray-400 text-center md:text-right">
-              <p>&copy; 2024 AlJana Tech. All rights reserved.</p>
+              <p>&copy; 2025 AlJana Tech. All rights reserved.</p>
              
             </div>
           </div>
