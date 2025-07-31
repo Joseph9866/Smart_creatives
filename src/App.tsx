@@ -53,7 +53,7 @@ function App() {
     {
       name: "Sarah Wanjiku",
       company: "TechHub Kenya",
-      text: "SmartInk Creatives transformed our brand identity completely. Their understanding of African digital culture is exceptional.",
+      text: "AlJana Tech transformed our brand identity completely. Their understanding of African digital culture is exceptional.",
       rating: 5
     },
     {
