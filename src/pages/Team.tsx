@@ -48,7 +48,7 @@ const Team = () => {
       image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
       skills: ['Web Development', 'Cloud Computing', 'DevOps'],
       social: {
-        linkedin: 'www.linkedin.com/in/joseph-kiarie-047a26264',
+        linkedin: 'https://www.linkedin.com/in/joseph-kiarie-047a26264/',
         twitter: 'https://x.com/josekeam01',
         email: 'josekeam01@gmail.com'
       }
