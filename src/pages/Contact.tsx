@@ -353,26 +353,7 @@ const Contact = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="space-y-8"
             >
-              {/* WhatsApp AI Chat Widget */}
-              <div className="bg-gradient-to-br from-green-500 to-green-600 p-8 rounded-3xl text-white">
-                <div className="flex items-center mb-6">
-                  <MessageCircle className="w-8 h-8 mr-3" />
-                  <h3 className="text-2xl font-bold">WhatsApp AI Support</h3>
-                </div>
-                <p className="mb-6 text-green-100">
-                  Get instant answers to your questions with our AI-powered WhatsApp assistant. 
-                  Available 24/7 to help with project inquiries, pricing, and general questions.
-                </p>
-                <a
-                  href="https://wa.me/254705494094?text=Hi%20ALJana%20Tech!%20I'm%20interested%20in%20your%20services."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-3 bg-white text-green-600 font-semibold rounded-xl hover:bg-green-50 transition-all duration-200 transform hover:scale-105"
-                >
-                  Start WhatsApp Chat
-                  <MessageCircle className="w-5 h-5 ml-2" />
-                </a>
-              </div>
+              
 
               {/* Response Time */}
               <div className="bg-white p-8 rounded-3xl shadow-lg">

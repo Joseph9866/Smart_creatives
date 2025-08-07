@@ -19,7 +19,7 @@ const Team = () => {
   const teamMembers = [
     {
       name: 'Julius Maingi',
-      role: 'Founder & Creative Director',
+      role: 'Founder & Managing Director',
       bio: 'Visionary leader with 3+ years of experience in brand strategy and creative direction. Passionate about transforming businesses through innovative design.',
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
       skills: ['Brand Strategy', 'Creative Direction', 'Team Leadership'],
@@ -30,8 +30,8 @@ const Team = () => {
       }
     },
     {
-      name: 'Nyambura',
-      role: 'Digital marketing and SEO',
+      name: 'Nyambura Irungu',
+      role: 'Co-founder & Creative Director',
       bio: 'Creative powerhouse specializing in visual identity and digital design. Brings brands to life with compelling visual narratives.',
       image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=400',
       skills: ['Visual Design', 'Brand Identity', 'UI/UX Design'],
@@ -43,9 +43,9 @@ const Team = () => {
     },
     {
       name: 'Joseph Kimani',
-      role: 'Senior Developer',
+      role: 'Co-founder & Chief Technology officer',
       bio: 'Full-stack developer with expertise in modern web technologies and cloud solutions. Builds scalable, performant applications.',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'Images/joseph.jpg',
       skills: ['Web Development', 'Cloud Computing', 'DevOps'],
       social: {
         linkedin: 'https://www.linkedin.com/in/joseph-kiarie-047a26264/',
