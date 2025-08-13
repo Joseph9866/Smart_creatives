@@ -11,7 +11,7 @@ import {
   Users,
   Globe,
   Smartphone,
-  Monitor,
+  //Monitor,
   Palette,
   Code,
   Search,
@@ -85,44 +85,7 @@ const OurWork = () => {
       link: '#',
       featured: false
     },
-    {
-      id: 4,
-      title: 'Nairobi Fashion Week Digital Platform',
-      category: 'Web Development',
-      client: 'Nairobi Fashion Week',
-      location: 'Nairobi, Kenya',
-      year: '2023',
-      image: 'https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Event management platform and brand identity for Africa\'s premier fashion event.',
-      services: ['Web Development', 'Event Management System', 'Brand Identity', 'Mobile App'],
-      results: [
-        '180% increase in international visitors',
-        '220% increase in designer applications',
-        '160% increase in ticket sales'
-      ],
-      technologies: ['Vue.js', 'Laravel', 'MySQL', 'Flutter'],
-      link: '#',
-      featured: false
-    },
-    {
-      id: 5,
-      title: 'Kilifi Artisan Collective E-commerce',
-      category: 'E-commerce',
-      client: 'Kilifi Artisan Collective',
-      location: 'Kilifi, Kenya',
-      year: '2023',
-      image: 'https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'E-commerce platform showcasing authentic Kenyan artisan crafts with international shipping capabilities.',
-      services: ['E-commerce Development', 'Payment Integration', 'Inventory Management', 'Social Media Strategy'],
-      results: [
-        '300% increase in online sales',
-        '500% growth in social media following',
-        '150% increase in international orders'
-      ],
-      technologies: ['Shopify', 'React', 'Stripe', 'PayPal'],
-      link: '#',
-      featured: false
-    },
+    
     {
       id: 6,
       title: 'Nairobi Medical Center Digital Transformation',
