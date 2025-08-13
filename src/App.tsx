@@ -11,6 +11,7 @@ import CaseStudies from './pages/CaseStudies';
 import Testimonials from './pages/Testimonials';
 import Blogs from './pages/Blogs';
 import Contact from './pages/Contact';
+import OurWork from './pages/OurWork';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/team" element={<Team />} />
+            <Route path="/our-work" element={<OurWork />} />
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/blogs" element={<Blogs />} />
