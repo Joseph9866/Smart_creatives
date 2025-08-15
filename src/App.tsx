@@ -12,6 +12,8 @@ import Testimonials from './pages/Testimonials';
 import Blogs from './pages/Blogs';
 import Contact from './pages/Contact';
 import OurWork from './pages/OurWork';
+import TermsAndConditions from './pages/TermsAndConditions';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
         </AnimatePresence>
         <Footer />

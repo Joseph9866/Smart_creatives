@@ -134,7 +134,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div>
+          <div className="lg:col-span-1">
             <h3 className="text-lg font-semibold mb-6">Contact Info</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
@@ -151,12 +151,31 @@ const Footer = () => {
               </div>
             </div>
           </div>
+
+          {/* Legal Links */}
+          <div>
+            <h3 className="text-lg font-semibold mb-6">Legal</h3>
+            <ul className="space-y-3">
+              <li><Link to="/terms-and-conditions" className="text-gray-300 hover:text-white transition-colors">Terms & Conditions</Link></li>
+              <li><Link to="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</Link></li>
+            </ul>
+          </div>
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-gray-400">
-            &copy; 2025 ALJana Tech. All rights reserved. | Transforming brands with creativity and technology.
-          </p>
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <p className="text-gray-400">
+              &copy; 2025 ALJana Tech. All rights reserved. | Transforming brands with creativity and technology.
+            </p>
+            <div className="flex space-x-6">
+              <Link to="/terms-and-conditions" className="text-gray-400 hover:text-white transition-colors text-sm">
+                Terms & Conditions
+              </Link>
+              <Link to="/privacy-policy" className="text-gray-400 hover:text-white transition-colors text-sm">
+                Privacy Policy
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
