@@ -20,6 +20,7 @@ const Blogs = () => {
   const [formData, setFormData] = useState({ name: '', email: '' });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isDownloaded, setIsDownloaded] = useState(false);
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
 
   const blogs = [
     {
@@ -103,7 +104,7 @@ const Blogs = () => {
 
   const handleFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.name || !formData.email) return;
+    if (!formData.name || !formData.email || !acceptedTerms) return;
 
     setIsSubmitting(true);
     
@@ -127,6 +128,7 @@ const Blogs = () => {
         setIsDownloaded(false);
         setShowDownloadForm(false);
         setFormData({ name: '', email: '' });
+        setAcceptedTerms(false);
         setSelectedBlog(null);
       }, 3000);
     } catch (error) {
@@ -147,6 +149,7 @@ const Blogs = () => {
     setShowDownloadForm(false);
     setSelectedBlog(null);
     setFormData({ name: '', email: '' });
+    setAcceptedTerms(false);
     setIsDownloaded(false);
   };
 
@@ -387,9 +390,41 @@ const Blogs = () => {
                     />
                   </div>
 
+                  <div className="flex items-start space-x-3">
+                    <input
+                      type="checkbox"
+                      id="acceptTerms"
+                      checked={acceptedTerms}
+                      onChange={(e) => setAcceptedTerms(e.target.checked)}
+                      required
+                      className="mt-1 w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 focus:ring-2"
+                    />
+                    <label htmlFor="acceptTerms" className="text-sm text-gray-700 leading-relaxed">
+                      I agree to the{' '}
+                      <a
+                        href="/terms-and-conditions"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-purple-600 hover:text-purple-700 underline"
+                      >
+                        Terms & Conditions
+                      </a>
+                      {' '}and{' '}
+                      <a
+                        href="/privacy-policy"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-purple-600 hover:text-purple-700 underline"
+                      >
+                        Privacy Policy
+                      </a>
+                      . I consent to receiving occasional updates about ALJana Tech's services and can unsubscribe at any time.
+                    </label>
+                  </div>
+
                   <button
                     type="submit"
-                    disabled={isSubmitting || !formData.name || !formData.email}
+                    disabled={isSubmitting || !formData.name || !formData.email || !acceptedTerms}
                     className="w-full bg-gradient-to-r from-purple-600 to-green-500 text-white font-semibold py-4 rounded-xl hover:from-purple-700 hover:to-green-600 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
                   >
                     {isSubmitting ? (
@@ -407,8 +442,8 @@ const Blogs = () => {
                 </form>
 
                 <p className="text-xs text-gray-500 text-center mt-4">
-                  By downloading, you agree to receive occasional updates about our services. 
-                  You can unsubscribe at any time.
+                  Your information is protected according to our Privacy Policy. 
+                  We respect your privacy and will never share your data with third parties.
                 </p>
               </>
             )}
